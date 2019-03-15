@@ -1,7 +1,8 @@
 # Drodzy!
 jak poprzednio, zgodnie z obietnicą egzamin przykładowy, mający pomóc Wam przygotowaniu się do egzaminu.
-Mam nadzieję, że będzie On pomocny w powtarzaniu materiału!
+Mam nadzieję, że będzie on pomocny w powtarzaniu materiału!
 Nie traktujcie go jednak jako wyznacznika zakresu, a jedynie przykład czego możecie się spodziewać.
+
 
 ----------------------------------------------------------------------------------------
 
