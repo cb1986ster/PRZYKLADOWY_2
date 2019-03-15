@@ -88,9 +88,9 @@ Pamiętaj o poprawnym połączeniu do bazy danych i jego zamknięciu.
 
 ### Zadanie 4
 (5 pkt) Napisz program w Pythonie klasy TrustedCustomer. Klasa ma spełniać następujące właściwości:
-    * Dziedziczyć po klasie Customer (zajrzyj do modułu exam) oraz mieć dodatkowy atrybut: discount_value.
-    * Mieć konstruktor, który przyjmuje następujące dane: `nazwa`, `mail`, `wartość zniżki`. Nazwa i mail mają być przekazywane do konstruktora klasy nadrzędnej. Konstruktor ma sprawdzać, czy podana zniżka jest poprawna. Jeżeli jest – to go nastawiać, jeżeli nie – to wartość ma być ustawiona na 0.0.
-    * Mieć prywatną metodę check_discount(value) – zniżka poprawna jeśli jest z przedziału <0.03;0.25>. Funkcja ma zwracać wartość logiczną.
-    * Mieć publiczną metodę use_discount() – ciało metody może zostać puste (lub zwrócić wartość None).
-    * Mieć publiczną funkcję set_discount_value(new_discount_value) i get_discount_value(). Funkcja set ma nastawiać zmienną discount_value (jeżeli podana nowa wartość spełnia założenia), a funkcja get – ją zwracać.
-    * Naspisać publiczną funkcję get_total_price() w sposób uwzględniający zniżkę
+* Dziedziczyć po klasie Customer (zajrzyj do modułu exam) oraz mieć dodatkowy atrybut: discount_value.
+* Mieć konstruktor, który przyjmuje następujące dane: `nazwa`, `mail`, `wartość zniżki`. Nazwa i mail mają być przekazywane do konstruktora klasy nadrzędnej. Konstruktor ma sprawdzać, czy podana zniżka jest poprawna. Jeżeli jest – to go nastawiać, jeżeli nie – to wartość ma być ustawiona na 0.0.
+* Mieć prywatną metodę check_discount(value) – zniżka poprawna jeśli jest z przedziału <0.03;0.25>. Funkcja ma zwracać wartość logiczną.
+* Mieć publiczną metodę use_discount() – ciało metody może zostać puste (lub zwrócić wartość None).
+* Mieć publiczną funkcję set_discount_value(new_discount_value) i get_discount_value(). Funkcja set ma nastawiać zmienną discount_value (jeżeli podana nowa wartość spełnia założenia), a funkcja get – ją zwracać.
+* Naspisać publiczną funkcję get_total_price() w sposób uwzględniający zniżkę
